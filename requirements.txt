@@ -1,0 +1,14 @@
+alembic
+asyncpg
+fastapi
+fastf1
+numpy
+pandas
+psycopg2-binary
+pydantic
+python-dotenv
+scikit-learn
+sqlalchemy
+tqdm
+uvicorn
+xgboost
