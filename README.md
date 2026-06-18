@@ -162,19 +162,7 @@ Trained model artifacts are not committed. They are regenerated locally from ing
 | --- | --- |
 | Lap Time Predictor | XGBoost regressor over engineered race-state features |
 | Strategy Predictor | Heuristic pit-window scorer using tyre degradation and pit loss |
-| Race Outcome Predictor | Gradient boosting classifier for finish-position buckets |
-
-## GitHub Readiness
-
-Before committing, check the following:
-
-- `.env` is present locally but not staged.
-- FastF1 cache folders and generated frontend builds are ignored.
-- Python bytecode folders are ignored.
-- `frontend/package-lock.json` is committed with `frontend/package.json`.
-- `requirements.txt` is committed for backend setup.
-- Run `git status --short --ignored` if you want to confirm ignored generated files are staying out of the commit.
-
+| Race Outcome Predictor | Gradient boosting classifier for finish-position 
 ## Notes
 
 - Race data is sourced through [FastF1](https://github.com/theOehrly/Fast-F1).
